@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515BE4F919A4499300471B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE4F819A4499300471B00 /* Foundation.framework */; };
+		515BE4FB19A4499300471B00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE4FA19A4499300471B00 /* CoreGraphics.framework */; };
+		515BE4FD19A4499300471B00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE4FC19A4499300471B00 /* UIKit.framework */; };
+		515BE50319A4499300471B00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515BE50119A4499300471B00 /* InfoPlist.strings */; };
+		515BE50519A4499300471B00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE50419A4499300471B00 /* main.m */; };
+		515BE50919A4499300471B00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE50819A4499300471B00 /* AppDelegate.m */; };
+		515BE50C19A4499300471B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515BE50A19A4499300471B00 /* Main.storyboard */; };
+		515BE50F19A4499300471B00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE50E19A4499300471B00 /* ViewController.m */; };
+		515BE51119A4499300471B00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515BE51019A4499300471B00 /* Images.xcassets */; };
+		515BE51819A4499300471B00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE51719A4499300471B00 /* XCTest.framework */; };
+		515BE51919A4499300471B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE4F819A4499300471B00 /* Foundation.framework */; };
+		515BE51A19A4499300471B00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE4FC19A4499300471B00 /* UIKit.framework */; };
+		515BE52219A4499300471B00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515BE52019A4499300471B00 /* InfoPlist.strings */; };
+		515BE52419A4499300471B00 /* amigoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE52319A4499300471B00 /* amigoTests.m */; };
+		515BE52E19A450C900471B00 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE52D19A450C900471B00 /* Parse.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		515BE51B19A4499300471B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515BE4ED19A4499300471B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515BE4F419A4499300471B00;
+			remoteInfo = amigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		515BE4F519A4499300471B00 /* amigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515BE4F819A4499300471B00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		515BE4FA19A4499300471B00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		515BE4FC19A4499300471B00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		515BE50019A4499300471B00 /* amigo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "amigo-Info.plist"; sourceTree = "<group>"; };
+		515BE50219A4499300471B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		515BE50419A4499300471B00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		515BE50619A4499300471B00 /* amigo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "amigo-Prefix.pch"; sourceTree = "<group>"; };
+		515BE50719A4499300471B00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		515BE50819A4499300471B00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		515BE50B19A4499300471B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515BE50D19A4499300471B00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		515BE50E19A4499300471B00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		515BE51019A4499300471B00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		515BE51619A4499300471B00 /* amigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515BE51719A4499300471B00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		515BE51F19A4499300471B00 /* amigoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "amigoTests-Info.plist"; sourceTree = "<group>"; };
+		515BE52119A4499300471B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		515BE52319A4499300471B00 /* amigoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amigoTests.m; sourceTree = "<group>"; };
+		515BE52D19A450C900471B00 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515BE4F219A4499300471B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BE52E19A450C900471B00 /* Parse.framework in Frameworks */,
+				515BE4FB19A4499300471B00 /* CoreGraphics.framework in Frameworks */,
+				515BE4FD19A4499300471B00 /* UIKit.framework in Frameworks */,
+				515BE4F919A4499300471B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515BE51319A4499300471B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BE51819A4499300471B00 /* XCTest.framework in Frameworks */,
+				515BE51A19A4499300471B00 /* UIKit.framework in Frameworks */,
+				515BE51919A4499300471B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515BE4EC19A4499300471B00 = {
+			isa = PBXGroup;
+			children = (
+				515BE4FE19A4499300471B00 /* amigo */,
+				515BE51D19A4499300471B00 /* amigoTests */,
+				515BE4F719A4499300471B00 /* Frameworks */,
+				515BE4F619A4499300471B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515BE4F619A4499300471B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515BE4F519A4499300471B00 /* amigo.app */,
+				515BE51619A4499300471B00 /* amigoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515BE4F719A4499300471B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515BE52D19A450C900471B00 /* Parse.framework */,
+				515BE4F819A4499300471B00 /* Foundation.framework */,
+				515BE4FA19A4499300471B00 /* CoreGraphics.framework */,
+				515BE4FC19A4499300471B00 /* UIKit.framework */,
+				515BE51719A4499300471B00 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		515BE4FE19A4499300471B00 /* amigo */ = {
+			isa = PBXGroup;
+			children = (
+				515BE50719A4499300471B00 /* AppDelegate.h */,
+				515BE50819A4499300471B00 /* AppDelegate.m */,
+				515BE50A19A4499300471B00 /* Main.storyboard */,
+				515BE50D19A4499300471B00 /* ViewController.h */,
+				515BE50E19A4499300471B00 /* ViewController.m */,
+				515BE51019A4499300471B00 /* Images.xcassets */,
+				515BE4FF19A4499300471B00 /* Supporting Files */,
+			);
+			path = amigo;
+			sourceTree = "<group>";
+		};
+		515BE4FF19A4499300471B00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515BE50019A4499300471B00 /* amigo-Info.plist */,
+				515BE50119A4499300471B00 /* InfoPlist.strings */,
+				515BE50419A4499300471B00 /* main.m */,
+				515BE50619A4499300471B00 /* amigo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515BE51D19A4499300471B00 /* amigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				515BE52319A4499300471B00 /* amigoTests.m */,
+				515BE51E19A4499300471B00 /* Supporting Files */,
+			);
+			path = amigoTests;
+			sourceTree = "<group>";
+		};
+		515BE51E19A4499300471B00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515BE51F19A4499300471B00 /* amigoTests-Info.plist */,
+				515BE52019A4499300471B00 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515BE4F419A4499300471B00 /* amigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515BE52719A4499300471B00 /* Build configuration list for PBXNativeTarget "amigo" */;
+			buildPhases = (
+				515BE4F119A4499300471B00 /* Sources */,
+				515BE4F219A4499300471B00 /* Frameworks */,
+				515BE4F319A4499300471B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amigo;
+			productName = amigo;
+			productReference = 515BE4F519A4499300471B00 /* amigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		515BE51519A4499300471B00 /* amigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515BE52A19A4499300471B00 /* Build configuration list for PBXNativeTarget "amigoTests" */;
+			buildPhases = (
+				515BE51219A4499300471B00 /* Sources */,
+				515BE51319A4499300471B00 /* Frameworks */,
+				515BE51419A4499300471B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515BE51C19A4499300471B00 /* PBXTargetDependency */,
+			);
+			name = amigoTests;
+			productName = amigoTests;
+			productReference = 515BE51619A4499300471B00 /* amigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515BE4ED19A4499300471B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = robinwohlers;
+				TargetAttributes = {
+					515BE51519A4499300471B00 = {
+						TestTargetID = 515BE4F419A4499300471B00;
+					};
+				};
+			};
+			buildConfigurationList = 515BE4F019A4499300471B00 /* Build configuration list for PBXProject "amigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515BE4EC19A4499300471B00;
+			productRefGroup = 515BE4F619A4499300471B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515BE4F419A4499300471B00 /* amigo */,
+				515BE51519A4499300471B00 /* amigoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515BE4F319A4499300471B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BE51119A4499300471B00 /* Images.xcassets in Resources */,
+				515BE50319A4499300471B00 /* InfoPlist.strings in Resources */,
+				515BE50C19A4499300471B00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515BE51419A4499300471B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BE52219A4499300471B00 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515BE4F119A4499300471B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BE50F19A4499300471B00 /* ViewController.m in Sources */,
+				515BE50919A4499300471B00 /* AppDelegate.m in Sources */,
+				515BE50519A4499300471B00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515BE51219A4499300471B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BE52419A4499300471B00 /* amigoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515BE51C19A4499300471B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515BE4F419A4499300471B00 /* amigo */;
+			targetProxy = 515BE51B19A4499300471B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		515BE50119A4499300471B00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515BE50219A4499300471B00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		515BE50A19A4499300471B00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515BE50B19A4499300471B00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515BE52019A4499300471B00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515BE52119A4499300471B00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515BE52519A4499300471B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		515BE52619A4499300471B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515BE52819A4499300471B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amigo/amigo-Prefix.pch";
+				INFOPLIST_FILE = "amigo/amigo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		515BE52919A4499300471B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amigo/amigo-Prefix.pch";
+				INFOPLIST_FILE = "amigo/amigo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		515BE52B19A4499300471B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/amigo.app/amigo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amigo/amigo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "amigoTests/amigoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		515BE52C19A4499300471B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/amigo.app/amigo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amigo/amigo-Prefix.pch";
+				INFOPLIST_FILE = "amigoTests/amigoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515BE4F019A4499300471B00 /* Build configuration list for PBXProject "amigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515BE52519A4499300471B00 /* Debug */,
+				515BE52619A4499300471B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515BE52719A4499300471B00 /* Build configuration list for PBXNativeTarget "amigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515BE52819A4499300471B00 /* Debug */,
+				515BE52919A4499300471B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		515BE52A19A4499300471B00 /* Build configuration list for PBXNativeTarget "amigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515BE52B19A4499300471B00 /* Debug */,
+				515BE52C19A4499300471B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515BE4ED19A4499300471B00 /* Project object */;
+}
