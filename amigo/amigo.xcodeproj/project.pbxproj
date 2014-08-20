@@ -14,7 +14,6 @@
 		515BE50519A4499300471B00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE50419A4499300471B00 /* main.m */; };
 		515BE50919A4499300471B00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE50819A4499300471B00 /* AppDelegate.m */; };
 		515BE50C19A4499300471B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515BE50A19A4499300471B00 /* Main.storyboard */; };
-		515BE50F19A4499300471B00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE50E19A4499300471B00 /* ViewController.m */; };
 		515BE51119A4499300471B00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515BE51019A4499300471B00 /* Images.xcassets */; };
 		515BE51819A4499300471B00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE51719A4499300471B00 /* XCTest.framework */; };
 		515BE51919A4499300471B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE4F819A4499300471B00 /* Foundation.framework */; };
@@ -22,6 +21,14 @@
 		515BE52219A4499300471B00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515BE52019A4499300471B00 /* InfoPlist.strings */; };
 		515BE52419A4499300471B00 /* amigoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE52319A4499300471B00 /* amigoTests.m */; };
 		515BE52E19A450C900471B00 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE52D19A450C900471B00 /* Parse.framework */; };
+		515BE53119A451FB00471B00 /* HotelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE53019A451FB00471B00 /* HotelTableViewController.m */; };
+		515BE53419A454F300471B00 /* HotelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE53319A454F300471B00 /* HotelTableViewCell.m */; };
+		515BE53619A458AA00471B00 /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 515BE53519A458AA00471B00 /* image@2x.png */; };
+		515BE53919A459A000471B00 /* mug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 515BE53819A459A000471B00 /* mug.jpg */; };
+		515BE53B19A45E6100471B00 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE53A19A45E6100471B00 /* CFNetwork.framework */; };
+		515BE53D19A45F5700471B00 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE53C19A45F5700471B00 /* SystemConfiguration.framework */; };
+		515BE53F19A45FA000471B00 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BE53E19A45FA000471B00 /* MobileCoreServices.framework */; };
+		515BE54219A46A2600471B00 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BE54119A46A2600471B00 /* AsyncImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +53,6 @@
 		515BE50719A4499300471B00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		515BE50819A4499300471B00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		515BE50B19A4499300471B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		515BE50D19A4499300471B00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		515BE50E19A4499300471B00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		515BE51019A4499300471B00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		515BE51619A4499300471B00 /* amigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		515BE51719A4499300471B00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,6 +60,17 @@
 		515BE52119A4499300471B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		515BE52319A4499300471B00 /* amigoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amigoTests.m; sourceTree = "<group>"; };
 		515BE52D19A450C900471B00 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		515BE52F19A451FB00471B00 /* HotelTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelTableViewController.h; path = ../HotelTableViewController.h; sourceTree = "<group>"; };
+		515BE53019A451FB00471B00 /* HotelTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelTableViewController.m; path = ../HotelTableViewController.m; sourceTree = "<group>"; };
+		515BE53219A454F300471B00 /* HotelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelTableViewCell.h; sourceTree = "<group>"; };
+		515BE53319A454F300471B00 /* HotelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelTableViewCell.m; sourceTree = "<group>"; };
+		515BE53519A458AA00471B00 /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
+		515BE53819A459A000471B00 /* mug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mug.jpg; sourceTree = "<group>"; };
+		515BE53A19A45E6100471B00 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		515BE53C19A45F5700471B00 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		515BE53E19A45FA000471B00 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		515BE54019A46A2600471B00 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		515BE54119A46A2600471B00 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515BE53F19A45FA000471B00 /* MobileCoreServices.framework in Frameworks */,
+				515BE53D19A45F5700471B00 /* SystemConfiguration.framework in Frameworks */,
+				515BE53B19A45E6100471B00 /* CFNetwork.framework in Frameworks */,
 				515BE52E19A450C900471B00 /* Parse.framework in Frameworks */,
 				515BE4FB19A4499300471B00 /* CoreGraphics.framework in Frameworks */,
 				515BE4FD19A4499300471B00 /* UIKit.framework in Frameworks */,
@@ -104,6 +123,9 @@
 		515BE4F719A4499300471B00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				515BE53E19A45FA000471B00 /* MobileCoreServices.framework */,
+				515BE53C19A45F5700471B00 /* SystemConfiguration.framework */,
+				515BE53A19A45E6100471B00 /* CFNetwork.framework */,
 				515BE52D19A450C900471B00 /* Parse.framework */,
 				515BE4F819A4499300471B00 /* Foundation.framework */,
 				515BE4FA19A4499300471B00 /* CoreGraphics.framework */,
@@ -116,11 +138,16 @@
 		515BE4FE19A4499300471B00 /* amigo */ = {
 			isa = PBXGroup;
 			children = (
+				515BE54019A46A2600471B00 /* AsyncImageView.h */,
+				515BE54119A46A2600471B00 /* AsyncImageView.m */,
+				515BE53719A458B800471B00 /* images */,
 				515BE50719A4499300471B00 /* AppDelegate.h */,
 				515BE50819A4499300471B00 /* AppDelegate.m */,
 				515BE50A19A4499300471B00 /* Main.storyboard */,
-				515BE50D19A4499300471B00 /* ViewController.h */,
-				515BE50E19A4499300471B00 /* ViewController.m */,
+				515BE52F19A451FB00471B00 /* HotelTableViewController.h */,
+				515BE53019A451FB00471B00 /* HotelTableViewController.m */,
+				515BE53219A454F300471B00 /* HotelTableViewCell.h */,
+				515BE53319A454F300471B00 /* HotelTableViewCell.m */,
 				515BE51019A4499300471B00 /* Images.xcassets */,
 				515BE4FF19A4499300471B00 /* Supporting Files */,
 			);
@@ -154,6 +181,15 @@
 				515BE52019A4499300471B00 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515BE53719A458B800471B00 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				515BE53819A459A000471B00 /* mug.jpg */,
+				515BE53519A458AA00471B00 /* image@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515BE53619A458AA00471B00 /* image@2x.png in Resources */,
 				515BE51119A4499300471B00 /* Images.xcassets in Resources */,
 				515BE50319A4499300471B00 /* InfoPlist.strings in Resources */,
+				515BE53919A459A000471B00 /* mug.jpg in Resources */,
 				515BE50C19A4499300471B00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515BE50F19A4499300471B00 /* ViewController.m in Sources */,
+				515BE53119A451FB00471B00 /* HotelTableViewController.m in Sources */,
+				515BE54219A46A2600471B00 /* AsyncImageView.m in Sources */,
 				515BE50919A4499300471B00 /* AppDelegate.m in Sources */,
+				515BE53419A454F300471B00 /* HotelTableViewCell.m in Sources */,
 				515BE50519A4499300471B00 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

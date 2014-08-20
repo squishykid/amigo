@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 robinwohlers. All rights reserved.
 //
 
+#import <Parse/Parse.h>
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -13,6 +15,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"QPkqg3jTenwRMvawV2tanp0so4DgAGM97xGbtv2o"
+                  clientKey:@"5KHwhc4sGZGbeJu3aKTGevvLdUPG8lWw9kSEHJXo"];
+    [PFImageView class];
     return YES;
 }
 							

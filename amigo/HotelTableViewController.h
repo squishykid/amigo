@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HotelTableViewController.h
 //  amigo
 //
 //  Created by Robin Wohlers-Reichel on 20/08/2014.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HotelTableViewCell.h"
 
-@interface ViewController : UITableViewController
+@interface HotelTableViewController : UITableViewController
 
 @end

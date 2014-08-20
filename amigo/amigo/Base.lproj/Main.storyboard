@@ -4,17 +4,17 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Root View Controller-->
+        <!--Hotel Table View Controller - Root View Controller-->
         <scene sceneID="DY7-yc-VDR">
             <objects>
-                <tableViewController id="aTA-rD-heV" customClass="ViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="168" sectionHeaderHeight="22" sectionFooterHeight="22" id="bf3-Q3-KGK">
+                <tableViewController id="aTA-rD-heV" customClass="HotelTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="290" sectionHeaderHeight="22" sectionFooterHeight="22" id="bf3-Q3-KGK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" cocoaTouchSystemColor="darkTextColor"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="290" id="Otb-Mq-4a0">
+                            <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="290" id="Otb-Mq-4a0" customClass="HotelTableViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="290"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Otb-Mq-4a0" id="Lof-ge-253">
@@ -45,7 +45,7 @@
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Urb-gd-Xg0">
+                                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image.png" translatesAutoresizingMaskIntoConstraints="NO" id="Urb-gd-Xg0" customClass="PFImageView">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="213"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -57,12 +57,21 @@
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2BO-Xk-j1w">
+                                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mug.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2BO-Xk-j1w" customClass="PFImageView">
                                             <rect key="frame" x="256" y="190" width="44" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="largeImage" destination="Urb-gd-Xg0" id="c0m-ie-ZKW"/>
+                                    <outlet property="location" destination="gGP-Z6-nBU" id="wCq-AK-Ukz"/>
+                                    <outlet property="price" destination="eBV-Ry-uWY" id="a2b-4C-quC"/>
+                                    <outlet property="reviewNumber" destination="sxG-hE-e45" id="YOu-Xz-e9f"/>
+                                    <outlet property="roomTitle" destination="Yym-ip-Yp4" id="cFx-IR-tPk"/>
+                                    <outlet property="roomType" destination="My9-io-AiH" id="Lnf-ed-xsz"/>
+                                    <outlet property="userImage" destination="2BO-Xk-j1w" id="0EK-mT-cDT"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -79,6 +88,7 @@
         <!--Navigation Controller-->
         <scene sceneID="2Is-IC-K29">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cm-0L-b6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="Lak-dj-M6U" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oL0-pY-qjc">
                         <autoresizingMask key="autoresizingMask"/>
@@ -87,11 +97,14 @@
                         <segue destination="aTA-rD-heV" kind="relationship" relationship="rootViewController" id="cT1-Hy-fpK"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4cm-0L-b6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-372" y="-260"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="image.png" width="320" height="213"/>
+        <image name="mug.jpg" width="88" height="88"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
